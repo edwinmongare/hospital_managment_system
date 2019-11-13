@@ -162,25 +162,52 @@
                     <ul class="metismenu" id="side-menu">
                         <li class="menu-title">Menu</li>
                         <li>
-                            <a href="index.html" class="waves-effect">
-                                <i class="icon-accelerator"></i><span class="badge badge-success badge-pill float-right">9+</span> <span> Dashboard </span>
+                            <a href="{% url 'hospitalmain-index' %}" class="waves-effect">
+                                <i class="mdi mdi-home"></i>
+                                <!-- <span class="badge badge-success badge-pill float-right"> -->
+                                </span> <span> Home</span>
                             </a>
                         </li>
 
                         <li>
-                            <a href="javascript:void(0);" class="waves-effect"><i class="icon-mail-open"></i><span> Email <span class="float-right menu-arrow"><i class="mdi mdi-chevron-right"></i></span> </span></a>
+                            <a href="javascript:void(0);" class="waves-effect"><i class="mdi mdi-cash-multiple"></i><span> Billing <span class="float-right menu-arrow"><i class="mdi mdi-chevron-right"></i></span> </span></a>
                             <ul class="submenu">
-                                <li><a href="email-inbox.html">Inbox</a></li>
-                                <li><a href="email-read.html">Email Read</a></li>
-                                <li><a href="email-compose.html">Email Compose</a></li>
+                                <li><a href="email-inbox.html">Pharmacy</a></li>
+                                <li><a href="email-read.html">Over the counter</a></li>
+                                <li><a href="email-compose.html">Patient bills</a></li>
+                                <li><a href="email-inbox.html">A/R invoices</a></li>
+                                <li><a href="email-read.html">Customer credit notes</a></li>
+                                <li><a href="email-compose.html">Receipts</a></li>
+                                <li><a href="email-compose.html">Gate Pass</a></li>
                             </ul>
                         </li>
 
                         <li>
-                            <a href="calendar.html" class="waves-effect"><i class="icon-calendar"></i><span> Calendar </span></a>
+                            <a href="javascript:void(0);" class="waves-effect"><i class="mdi mdi-clipboard-text"></i><span> Procurement<span class="float-right menu-arrow"><i class="mdi mdi-chevron-right"></i></span> </span></a>
+                            <ul class="submenu">
+                                <li><a href="email-inbox.html">Suppliers</a></li>
+                                <li><a href="email-read.html">Supplier bills(A/P invoices)</a></li>
+                                <li><a href="email-compose.html">Purchase requisition note</a></li>
+                                <li><a href="email-inbox.html">Purchase Orders</a></li>
+                                <li><a href="email-read.html">Goods received notes</a></li>
+                                <li><a href="email-compose.html">A/P payment Vouchers</a></li>
+                                <li><a href="email-compose.html">Gate Pass</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0);" class="waves-effect"><i class="mdi mdi-clipboard-check"></i><span> Inventory<span class="float-right menu-arrow"><i class="mdi mdi-chevron-right"></i></span> </span></a>
+                            <ul class="submenu">
+                                <li><a href="email-inbox.html">Inventory</a></li>
+                                <li><a href="email-read.html">Internal Orders</a></li>
+                                <li><a href="email-compose.html">Interbranch Orders</a></li>
+                                <li><a href="email-inbox.html">Material Consumption</a></li>
+                                <li><a href="email-read.html">Stock Take</a></li>
+                                <li><a href="email-compose.html">Price Markup</a></li>
+                                <li><a href="email-compose.html">Unit of measure</a></li>
+                            </ul>
                         </li>
 
-                        <li>
+                        <!-- <li>
                             <a href="javascript:void(0);" class="waves-effect"><i class="icon-paper-sheet"></i><span> Pages <span class="float-right menu-arrow"><i class="mdi mdi-chevron-right"></i></span> </span></a>
                             <ul class="submenu">
                                 <li><a href="pages-pricing.html">Pricing</a></li>
@@ -198,7 +225,7 @@
                                 <li><a href="pages-500.html">Error 500</a></li>
                             </ul>
                         </li>
-
+ -->
                         <li class="menu-title">Components</li>
 
                         <li>
